@@ -1,0 +1,10 @@
+selenium
+black
+isort
+flake8
+mypy
+pytest
+pytest-cov
+python-dotenv
+price-parser
+-e .
