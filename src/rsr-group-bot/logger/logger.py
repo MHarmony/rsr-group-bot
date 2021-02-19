@@ -28,7 +28,7 @@ class Logger:
     def setupLogger(self):
         logger = logging.getLogger("logger")
 
-        fileHandler = logging.FileHandler(self.logLocation)
+        fileHandler = logging.FileHandler(self.logLocation, mode="a", delay=True)
         fileHandlerFormat = logging.Formatter(
             "%(asctime)s [%(levelname)s] - [%(filename)s > %(funcName)s() > %(lineno)s] - %(message)s",
             datefmt="%Y-%m-%d %H:%M:%S",
