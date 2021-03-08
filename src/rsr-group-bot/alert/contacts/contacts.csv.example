@@ -1,0 +1,2 @@
+ChannelType,Address,User.UserAttributes.FirstName,User.UserAttributes.LastName
+EMAIL,user1@example.com.,User,1
